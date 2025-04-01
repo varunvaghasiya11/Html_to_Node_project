@@ -1,0 +1,222 @@
+
+.ff-rubik{
+    font-family: "Rubik", sans-serif;
+}
+.ff-jost{
+    font-family: "Jost", sans-serif;
+}
+.b-doted{
+    border-bottom: 2px dashed white;
+}
+.bg-color{
+    background-color: #F4F2F1;
+}
+.t-black{
+    color: black;
+}
+.t-white{
+    color: white;
+}
+.t-color{
+    color:#65C9BB;
+}
+.t-color-2{
+    color: #273a5b;
+}
+.t-color-3{
+    color: #F15B43;
+}
+.t-color-4{
+    color: #777777;
+}
+.properties-caption{
+    padding: 26px 18px 8px 22px;
+}
+.properties-footer{
+    padding: 19px 18px 20px 29px;
+}
+.properties-caption:hover a{
+    color: #F15B43;
+    transition: all 0.5s;
+}
+.btn-primary{
+    background-color:#F15B43 !important ;
+    color: white !important;
+    transition: all 0.5s;
+}
+.btn-primary:hover{
+    background-color: transparent !important;
+    border: 2px solid white !important;
+}
+.btn-se{
+    background-color:#65C9BB !important ;
+    color: white !important;
+    transition: all 0.5s;
+    border:1px solid #65C9BB !important;
+}
+.btn-se:hover{
+    background-color: transparent !important;
+    border: 1px solid white !important;
+}
+.btn-danger{
+    background-color:#F15B43 !important;
+    color: white !important;
+    transition: all 0.5s;
+}
+.btn-danger:hover{
+    background-color: transparent !important;
+    border: 2px solid #F15B43 !important;
+    color: #F15B43 !important;
+}
+.btn{
+    padding:20px 35px;
+    border: 2px solid #F15B43;
+    color:#F15B43;
+}
+.btn:hover{
+    background-color: #F15B43;
+    color: white;
+}
+.drop-down-items{
+    visibility: hidden;
+    opacity: 0;
+    top: 70px;
+    min-width: 190px;
+    background-color: white;
+    transition: all 0.5s;
+}
+.drop-down:hover .drop-down-items{
+    visibility: visible;
+    opacity: 1;
+}
+.link:hover>a{
+    color: #65C9BB;
+}
+.link-1:hover a{
+    color: #65C9BB;
+}
+.py-90{
+    padding: 90px 0px;
+}
+.hero{
+    background-image: url('../imges/h1_hero1.jpg.webp');
+    background-position: 60%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.hero-1{
+    background-image: url('../imges/h2_hero1.jpg.webp');
+    background-position: 60%;
+
+}
+.help{
+    background-image: url('../imges/section-bg1.jpg.webp');
+    background-attachment: fixed;
+}
+.link-offset-3 {
+    text-underline-offset: 0.800em !important;
+}
+.social-media{
+    width: 60px;
+    height: 60px;
+}
+.social-media-icon{
+    transition: all .4s;
+}
+.social-media:hover .social-media-icon{
+    transform:rotateY(180deg);
+}
+.navigation:hover{
+    text-decoration: underline;
+    color: white;
+    transition: all 0.5s;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.b-color{
+    border: 1px solid #e5e6e9;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+::placeholder{
+    font-size: 13px;
+}
+.c-btn{
+    color: #65C9BB !important;
+    transition: all 0.5s;
+    border:1px solid #65C9BB !important;
+}
+.c-btn:hover{
+    color: white !important;
+    background-color: #65C9BB !important;
+}
+.fs-16{
+    font-size: 16px;
+}
+.blog-link:hover{
+    color: #65C9BB !important;
+    background-color: transparent !important;
+}
+.bs{
+    box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+}
+.date{
+    bottom: -20px;
+    left: 20px;
+}
+.blog-btn{
+    background-color: #65C9BB;
+    transition: all 0.5s;
+    color: white;
+    border: transparent;
+}
+.blog-btn:hover{
+    color: #65C9BB;
+    background-color: transparent;
+}
+.number{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #8a8a8a;
+}
+.tag-btn{
+    border: 1px solid #eee;
+    background-color: #fff;
+    color: #888;
+    font-size: 13px;
+    transition: all 0.3s;
+}
+.tag-btn:hover{
+    background-color: #65C9BB;
+}
+.quote-wrapper{
+    background-color: rgba(130,139,178,0.1);
+}
+.p-30{
+    padding: 30px;
+}
+.comment-form{
+    border-top: 1px solid #eee;
+    padding-top: 45px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.py-50{
+    padding: 50px 0px;
+}
+.img-gallery{
+    height: 200px;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin-top: 20px !important;
+}
+.form{
+    width: 100%;
+    line-height: 40px;
+    border: none;
+    background: #f9f9ff;
+    padding: 0 20px;
+}
