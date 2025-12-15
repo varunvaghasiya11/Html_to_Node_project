@@ -1,0 +1,88 @@
+<%- include('./parsers/header') %>
+    <main>
+        <section class="hero-1 ff-jost d-flex align-items-center py-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 ff-jost display-5 text-white fw-medium pt-100">
+                        Contact
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-90">
+            <div class="container">
+                <div class="row">
+                    <div class="row w-100">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21811.384148038134!2d55.250813495026165!3d25.20226638002495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sin!4v1741869963211!5m2!1sen!2sin"
+                            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pb-100">
+            <div class="container">
+                <div class="row ">
+                    <div class="fs-2 ff-jost fw-medium t-color-2 mb-4 px-4">
+                        Get in Touch
+                    </div>
+                    <div class="col-8 mb-4">
+                        <form method="post" action="/contact">
+                            <div class="col-12 px-3">
+                                <textarea name="message" id="message" placeholder="Enter Massage" rows="9" class="w-100 rounded-0 border-opacity-25 p-2 mb-4 b-color"></textarea>
+                            </div>
+                            <div class="d-flex col-12 mb-4">
+                                <div class="col-6 px-3">
+                                    <input type="text" class="b-color rounded-0 py-2 px-3 w-100 " placeholder="Enter yout Name" name="name">
+                                </div>
+                                <div class="col-6 px-3">
+                                    <input type="email" class="b-color rounded-0 py-2 px-3 w-100" placeholder="Email" name="email">
+                                </div>
+                            </div>
+                            <div class="col-6 px-3 w-100 mb-4">
+                                <input type="text" class="b-color rounded-0 py-2 px-3 w-100" placeholder="Enter Subject" name="subject">
+                            </div>
+                            <div class="px-3">
+                                <button class="btn c-btn rounded-0 t-white border-none ff-rubik" type="submit">
+                                    SEND
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-3">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="me-4">
+                                <i class="fa-solid fa-house fs-3" style="color: #8f9195;"></i>
+                            </div>
+                            <div>
+                                <h4 class="fs-16 ff-jost m-0">Buttonwood, California.</h4>
+                                <p class="ff-rubik m-0 fs-16">Rosemead, CA 91770</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="me-4">
+                                <i class="fa-solid fa-tablet fs-3" style="color: #8f9195;"></i>
+                            </div>
+                            <div>
+                                <h4 class="ff-jost fs-16 m-0">+1 253 565 2365</h4>
+                                <p class="ff-rubik m-0 fs-16">Mon to Fri 9am to 6pm</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="me-4">
+                                <i class="fa-solid fa-envelope fs-3" style="color: #8f9195;"></i>
+                            </div>
+                            <div>
+                                <h4 class="ff-jost fs-16 m-0">Buttonwood, California.</h4>
+                                <p class="ff-rubik m-0 fs-16">Rosemead, CA 91770</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+   <%- include('./parsers/footer') %>
